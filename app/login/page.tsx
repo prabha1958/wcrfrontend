@@ -16,7 +16,7 @@ import { useAuth } from "@/contexts/auth-context"
 const getBackendUrl = () => {
   // In v0 environment, use a configurable backend URL
   // In local development, this can be localhost:8000
-  return process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000"
+  return process.env.NEXT_PUBLIC_BACKEND_URL || "https://csiadmin.csimarital.in"
 }
 
 export default function LoginPage() {
